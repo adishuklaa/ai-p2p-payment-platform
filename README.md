@@ -1,5 +1,7 @@
 # AI P2P Payment Platform
 
+![Project Screenshot](screenshots/dashboard.png)
+
 ## Product Overview
 PayFlow AI is a robust peer-to-peer (P2P) payment prototype integrating artificial intelligence to handle transaction velocity checks, risk holding, and real-time fraud mitigation. This platform simulates sending and requesting money while strictly managing compliance and limits, offering users an ultra-fast, secure financial experience.
 
