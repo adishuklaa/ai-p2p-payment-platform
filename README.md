@@ -161,17 +161,3 @@ ai-p2p-payment-platform/
 ## Future Improvements
 - Add persistent storage (Zustand + LocalStorage).
 - Build dedicated components rather than a single `App.tsx` monolith for better maintainability.
-
-## Interview Talking Points
-- **60-sec explanation:** "This is a React-based P2P payment prototype that simulates complex transaction flows, including AI-driven risk holds, daily limits, and failure states, wrapped in a modern, responsive UI."
-- **Problem:** Existing payment demos ignore edge cases like insufficient funds or compliance holds.
-- **Decision:** Used React state machines to heavily simulate these edge cases in the UI.
-- **Tradeoff:** Kept everything in the frontend to demonstrate UX rather than spending time on a mock API.
-- **Tech:** React, TypeScript, Tailwind, Recharts.
-- **AI:** Simulated through rule-based risk flags (e.g., >$1000).
-- **Metrics:** Trackable via successful transaction completions vs failure encounters.
-- **Next:** Backend integration with a real database and payment gateway API.
-- **Questions:** How would we scale the simulated AI into a real ML microservice?
-
-## Disclaimer
-This is a prototype application built for demonstration purposes. It does not process real financial transactions or connect to actual bank accounts.
